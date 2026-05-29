@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Balance Sheet</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background:#f4f4f4;
+    padding:20px;
+}
+
+h2{
+    text-align:center;
+}
+
+table{
+    width:100%;
+    border-collapse: collapse;
+    background:white;
+}
+
+th, td{
+    border:1px solid #ccc;
+    padding:12px;
+    text-align:center;
+}
+
+th{
+    background:#007bff;
+    color:white;
+}
+
+tr:nth-child(even){
+    background:#f9f9f9;
+}
+</style>
+</head>
+
+<body>
+
+<h2>Balance Sheet</h2>
+
+<table>
+<tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Balance</th>
+</tr>
+
+<tr>
+    <td>101</td>
+    <td>Rittik</td>
+    <td>5000</td>
+</tr>
+
+<tr>
+    <td>102</td>
+    <td>Rahim</td>
+    <td>3000</td>
+</tr>
+
+<tr>
+    <td>103</td>
+    <td>Karim</td>
+    <td>7500</td>
+</tr>
+
+</table>
+
+</body>
+</html>
