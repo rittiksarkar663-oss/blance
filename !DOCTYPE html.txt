@@ -7,68 +7,101 @@
 
 <style>
 body{
-    font-family: Arial, sans-serif;
-    background:#f4f4f4;
+    margin:0;
     padding:20px;
+    font-family:Arial, sans-serif;
+    background:#f1f5f9;
 }
 
-h2{
+.container{
+    max-width:900px;
+    margin:auto;
+}
+
+h1{
     text-align:center;
+    margin-bottom:20px;
+    color:#111827;
 }
 
 table{
     width:100%;
-    border-collapse: collapse;
+    border-collapse:collapse;
     background:white;
-}
-
-th, td{
-    border:1px solid #ccc;
-    padding:12px;
-    text-align:center;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
 }
 
 th{
-    background:#007bff;
+    background:#2563eb;
     color:white;
+    padding:14px;
+}
+
+td{
+    padding:12px;
+    border:1px solid #ddd;
+    text-align:center;
 }
 
 tr:nth-child(even){
-    background:#f9f9f9;
+    background:#f9fafb;
+}
+
+.footer{
+    margin-top:20px;
+    text-align:center;
+    color:gray;
 }
 </style>
 </head>
 
 <body>
 
-<h2>Balance Sheet</h2>
+<div class="container">
+
+<h1>Balance Management Sheet</h1>
 
 <table>
+<thead>
 <tr>
-    <th>ID</th>
-    <th>Name</th>
-    <th>Balance</th>
+<th>ID</th>
+<th>Name</th>
+<th>Balance</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>101</td>
+<td>Rittik</td>
+<td>5000</td>
 </tr>
 
 <tr>
-    <td>101</td>
-    <td>Rittik</td>
-    <td>5000</td>
+<td>102</td>
+<td>Rahim</td>
+<td>3500</td>
 </tr>
 
 <tr>
-    <td>102</td>
-    <td>Rahim</td>
-    <td>3000</td>
+<td>103</td>
+<td>Karim</td>
+<td>7200</td>
 </tr>
 
 <tr>
-    <td>103</td>
-    <td>Karim</td>
-    <td>7500</td>
+<td>104</td>
+<td>Hasan</td>
+<td>9100</td>
 </tr>
-
+</tbody>
 </table>
+
+<div class="footer">
+Website Created By Rittik
+</div>
+
+</div>
 
 </body>
 </html>
